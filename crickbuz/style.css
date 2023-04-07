@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:burlywood;
+}
+.logo{
+    background-image: url(crickbuz\ 2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:25rem;
+    /* border: 8px solid rgb(229, 254, 2); */
+
+
+}
+form{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    font-size:2rem;
+    font-weight: bold;
+    background-color:darkcyan;
+    border-radius: 8px;
+    width: 15rem;
+    text-align: center;
+    color: rgb(2, 7, 101);
+    
+}
+option{
+    font-size:2rem;
+    font-weight: bold;
+    background-color:darkcyan;
+    border-radius: 8px;
+    width: 15rem;
+    text-align: center;
+    color: rgb(232, 61, 9);
+}
+input{
+    margin-left: 9px;
+    font-size:2rem;
+    font-weight: bold;
+    background-color:rgb(1, 94, 20);
+    border-radius: 8px;
+    width: 8rem;
+    color: yellow;
+    text-align: center;
+    
+}
+.show {
+    border: 2px solid black;
+    /* height: 20rem;
+    background-color: rgb(245, 159, 204); */
+
+}
+.show ul li{
+    border: 2px solid rgb(248, 4, 4);
+    background-color: rgb(245, 159, 204);
+    color: rgb(24, 2, 112);
+    font-weight: bold;
+
+}
